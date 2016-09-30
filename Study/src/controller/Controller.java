@@ -30,7 +30,7 @@ public class Controller extends HttpServlet{
 		String nextpage = null;
 		String msg=null;
 		PeopleDAO dao;
-		System.out.println("수정해보자!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+		System.out.println("수정해보자!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 		if(cmd.equals("login")){
 			
 			dao = new PeopleDAO();
